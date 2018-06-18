@@ -285,6 +285,12 @@ In order to setup Travis, we need a .travis.yml file.
 
 Content of .travis.yml file
 
+```
+language: node_js
+node_js:
+    - "node"
+```
+
 ### Pushing the Code To The Repo
 
 Lets use the following commands to deploy the repo.
@@ -295,11 +301,9 @@ git commit -m "Finished lesson one"
 git push -u origin master
 ```
 
-```
-language: node_js
-node_js:
-    - "node"
-```
+### Help Improve This Lesson
+
+To provide feedback/suggestions for this lesson, please fill a Github Issue. Thanks :)
 
 ## Basic React Info Given With Every React Project
 
