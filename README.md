@@ -159,7 +159,7 @@ _createNavItems() {
 }
 ```
 
-So not all the blanks have been filled in the function but by the function name and the remainder of this tutorial, I hope that you can connect the pieces ;) Don;t hesitate to ask for help though. That is what #website-officehours is for. Also, the solution code will be uploaded as well. Please try to avoid blatantly copying it though.
+So not all the blanks have been filled in the function but by the function name and the remainder of this tutorial, I hope that you can connect the pieces ;) Don't hesitate to ask for help though. That is what #website-officehours is for. Also, the solution code will be uploaded as well. Please try to avoid blatantly copying it though.
 
 So, now that we have created such a function (you may complete it after starting the 'render' function), we must bind it to the class. All function binding is done inside the constructor. Here is the syntax for binding a function.
 
