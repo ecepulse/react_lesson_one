@@ -194,7 +194,7 @@ Now, we have completed a working version of the PulseNav class. Let's instantiat
 The first thing we need to do is import the PulseNav class inside the App.js file. To do so, we first need to add an import statement in the file at the top under the other import functions.
 
 ```js
-import PulseNav from './components/Navbar.js';
+import PulseNav from './components/PulseNav.js';
 ```
 
 Now, we need to instantiate a PulseNav object inside our rendered view. To do so, setup the 'render()' function like below.
@@ -237,7 +237,7 @@ Now, we need to instantiate a PulseNav object inside our rendered view. To do so
   }
 ```
 
-Btw, try deleting the outer <div></div> in the return statement and see what happens :)
+Btw, try deleting the outer `<div></div>` in the return statement and see what happens :)
 
 Notice the links property in our PulseNav declaration. The value assigned to it (an array of hashmaps/dictionaries) is mapped to this.props.links.
 
