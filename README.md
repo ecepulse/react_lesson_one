@@ -73,7 +73,13 @@ To see all that Bootstrap comes with, please visit [Boostrap Components](https:/
 
 ### Including Bootstrap Bindings in Our React Project
 
-First, lets simply add the React Bindings to Our Project.
+Before beginning adding dependencies to our project, lets install the dependencies we already need locally.
+
+```sh
+yarn install
+```
+
+Now, lets simply add the React Bindings to Our Project.
 
 ```sh
 yarn add react-bootstrap
